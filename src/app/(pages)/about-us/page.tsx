@@ -38,61 +38,61 @@ export default function Home() {
         <Image src={IMG4} alt="Two people with laptop outdoors" className="w-full sm:w-1/2 lg:w-auto h-auto" />
       </div>
       </section>
-      <div className="container">
-        <div className="lg:w-10/12 lg:my-16 mx-10">
-        <div className="lg:w-3/6">
-          <h2 className="text-blue-500 tracking-wide lg:text-4xl font-extrabold mb-4 py-6">Lorem Ipsum is simply dummy text of the printing. </h2>
+      <div className="lg:container p-4">
+        <div className="lg:w-10/12 lg:my-16 lg:mx-10">
+        <div className="lg:w-4/6">
+          <h2 className="text-blue-500 tracking-wide lg:text-5xl text-2xl font-extrabold mb-4 py-6">Lorem Ipsum is simply dummy text of the printing. </h2>
           </div>  
           <p className="text-gray-600 text-xl">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web weblications and website builders measuring dozens of completed projects. We build and develop mobile weblications for several top platforms, including Android  & IOS. We build and develop mobile weblications for several top platforms, including Android  & IOS. </p>
         </div>
       </div>
 
-      <div className="container py-10 flex">
-       
-        <div className="flex justify-center items-center  ">
-        <div className="lg:w-1/2">
-        <div className="lg:w-3/4">
-          <h3 className="text-2xl lg:text-3xl font-semibold mb-4  p-5 px-0">Lorem Ipsum is simply dummy text of the printing. </h3>
-          <p className="text-sm text-gray-600 py-4">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web weblications and website builders measuring dozens of completed projects.</p>
-          <Link href="/contact-us" className="px-5 py-3 border-solid border rounded-md border-sky-500">Contact us</Link>
-        </div>
-        </div>
-      <div className="grid grid-cols-2 gap-8 p-10 bg-white rounded-lg shadow-lg">
-        
-        {/* Web weblication */}
+      <div className="container py-10 px-4 lg:px-0">
+  <div className="flex flex-col lg:flex-row justify-center items-center">
+    <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+      <div className="w-full lg:w-3/4">
+        <h3 className="text-2xl lg:text-3xl font-semibold mb-4">Lorem Ipsum is simply dummy text of the printing.</h3>
+        <p className="text-sm text-gray-600 py-4">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects.</p>
+        <Link href="/contact-us" className="inline-block px-5 py-3 border-solid border rounded-md border-sky-500">Contact us</Link>
+      </div>
+    </div>
+    <div className="w-full lg:w-1/2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-8 bg-white rounded-lg shadow-lg p-6 lg:p-10">
+        {/* Web Application */}
         <div className="flex items-center space-x-4 p-4 bg-red-50 rounded-lg">
           <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
-          <Image src={web} alt="Web weblication" className="w-6 h-6" />
+            <Image src={web} alt="Web Application" className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-purple-900">Web weblication</h3>
+          <h3 className="text-base lg:text-lg font-semibold text-purple-900">Web Application</h3>
         </div>
 
         {/* SEO */}
         <div className="flex items-center space-x-4 p-4 bg-blue-50 rounded-lg">
           <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
-          <Image src={seo} alt="seo" className="w-6 h-6" />
+            <Image src={seo} alt="SEO" className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-purple-900">SEO</h3>
+          <h3 className="text-base lg:text-lg font-semibold text-purple-900">SEO</h3>
         </div>
 
-        {/* Mobile weblications */}
+        {/* Mobile Applications */}
         <div className="flex items-center space-x-4 p-4 bg-purple-50 rounded-lg">
           <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
-          <Image src={mobile} alt="mobile weblication" className="w-6 h-6" />
+            <Image src={mobile} alt="Mobile Applications" className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-purple-900">Mobile weblications</h3>
+          <h3 className="text-base lg:text-lg font-semibold text-purple-900">Mobile Applications</h3>
         </div>
 
         {/* AR/VR */}
         <div className="flex items-center space-x-4 p-4 bg-pink-50 rounded-lg">
           <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
-          <Image src={ar} alt="AR/VR" className="w-6 h-6" />
+            <Image src={ar} alt="AR/VR" className="w-6 h-6" />
           </div>
-          <h3 className="text-lg font-semibold text-purple-900">AR/VR</h3>
+          <h3 className="text-base lg:text-lg font-semibold text-purple-900">AR/VR</h3>
         </div>
       </div>
     </div>
-      </div>
+  </div>
+</div>
       </div>
       <div className="relative bg-blue-100 p-10 rounded-lg lg:w-screen lg:h-64 flex justify-center items-center mx-auto shadow-lg">
 
