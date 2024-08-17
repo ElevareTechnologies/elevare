@@ -95,10 +95,7 @@ export default function Home() {
       </div>
       </div>
       <div className="relative bg-blue-100 p-10 rounded-lg lg:w-screen lg:h-64 flex justify-center items-center mx-auto shadow-lg">
-      {/* Star Icon */}
-      
 
-      {/* Centered Content */}
       <div className="text-center">
         <h2 className="text-xl font-semibold text-gray-800">
           Lorem Ipsum is simply dummy text of the printing.
@@ -114,13 +111,7 @@ export default function Home() {
 </Link>
         </div>
       </div>
-
-      {/* Right Icon */}
-      
-      
     </div>
-
-      
     </>
   );
 }
