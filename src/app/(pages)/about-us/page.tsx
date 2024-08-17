@@ -9,7 +9,7 @@ import web from "./IMAGES/Group.png";
 import seo from "./IMAGES/startup 1.png";
 import ar from "./IMAGES/cloud-computing 1.png";
 import mobile from "./IMAGES/coding 1.png"
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <>
@@ -49,12 +49,12 @@ export default function Home() {
 
       <div className="container py-10 flex">
        
-        <div className="flex justify-center items-center  bg-gray-50">
+        <div className="flex justify-center items-center  ">
         <div className="lg:w-1/2">
         <div className="lg:w-3/4">
           <h3 className="text-2xl lg:text-3xl font-semibold mb-4  p-5 px-0">Lorem Ipsum is simply dummy text of the printing. </h3>
           <p className="text-sm text-gray-600 py-4">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web weblications and website builders measuring dozens of completed projects.</p>
-          <button className="px-5 py-3 border-solid border rounded-md border-sky-500">Contact us</button>
+          <Link href="/contact-us" className="px-5 py-3 border-solid border rounded-md border-sky-500">Contact us</Link>
         </div>
         </div>
       <div className="grid grid-cols-2 gap-8 p-10 bg-white rounded-lg shadow-lg">
@@ -109,9 +109,9 @@ export default function Home() {
             placeholder="Enter your email"
             className="px-4 py-2 w-full max-w-xs rounded-full shadow-sm focus:outline-none"
           />
-          <button className="ml-4 bg-black text-white px-6 py-2 rounded-full">
-            SUBSCRIBE
-          </button>
+       <Link href="/" className="ml-4 bg-black text-white px-6 py-2 rounded-full">
+  SUBSCRIBE
+</Link>
         </div>
       </div>
 
