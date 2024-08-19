@@ -1,6 +1,7 @@
 // pages/index.js
 import Image from "next/image";
 import "./about-page.css";
+
 import IMG1 from "./IMAGES/IMG1.png";
 import IMG2 from "./IMAGES/IMG2.png";
 import IMG3 from "./IMAGES/IMG3.png";
@@ -10,6 +11,7 @@ import seo from "./IMAGES/startup 1.png";
 import ar from "./IMAGES/cloud-computing 1.png";
 import mobile from "./IMAGES/coding 1.png"
 import Link from 'next/link'
+import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function Home() {
           <Image src={IMG2} alt="Person writing" className="img2 w-full h-auto" />
         </div>
         <div className="w-full lg:w-1/2 flex flex-col justify-center p-4 lg:p-5 max-w-2xl">
-          <h2 className="text-blue-500  mb-2 text-2xl p-5 px-0">About us</h2>
+          <h2 className="text-primary  mb-2 text-2xl p-5 px-0">About us</h2>
           <h1 className="text-2xl lg:text-4xl font-semibold mb-4  p-5 px-0">
             Lorem Ipsum is simply dummy text of the printing.
           </h1>
@@ -41,7 +43,7 @@ export default function Home() {
       <div className="lg:container p-4">
         <div className="lg:w-10/12 lg:my-16 lg:mx-10">
         <div className="lg:w-4/6">
-          <h2 className="text-blue-500 tracking-wide lg:text-5xl text-2xl font-extrabold mb-4 py-6">Lorem Ipsum is simply dummy text of the printing. </h2>
+          <h2 className="text-primary tracking-wide lg:text-5xl text-2xl font-extrabold mb-4 py-6">Lorem Ipsum is simply dummy text of the printing. </h2>
           </div>  
           <p className="text-gray-600 text-xl">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web weblications and website builders measuring dozens of completed projects. We build and develop mobile weblications for several top platforms, including Android  & IOS. We build and develop mobile weblications for several top platforms, including Android  & IOS. </p>
         </div>
@@ -53,7 +55,8 @@ export default function Home() {
       <div className="w-full lg:w-3/4">
         <h3 className="text-2xl lg:text-3xl font-semibold mb-4">Lorem Ipsum is simply dummy text of the printing.</h3>
         <p className="text-sm text-gray-600 py-4">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects.</p>
-        <Link href="/contact-us" className="inline-block px-5 py-3 border-solid border rounded-md border-sky-500">Contact us</Link>
+        <Link href="/contact-us">
+         <Button variant={"outline"} size={"lg"} className="border-2">Contact us</Button></Link>
       </div>
     </div>
     <div className="w-full lg:w-1/2">
@@ -94,20 +97,21 @@ export default function Home() {
   </div>
 </div>
       </div>
-      <div className="relative bg-blue-100 p-10 rounded-lg lg:w-screen lg:h-64 flex justify-center items-center mx-auto shadow-lg">
+      <div className="relative bg-blue-100 p-10 rounded-lg  lg:h-64 flex justify-center items-center mx-auto shadow-lg">
 
       <div className="text-center">
         <h2 className="text-xl font-semibold text-gray-800">
           Lorem Ipsum is simply dummy text of the printing.
         </h2>
-        <div className="mt-6 flex items-center justify-center">
+        <div className="mt-6 flex flex-col items-center justify-center">
           <input
             type="email"
             placeholder="Enter your email"
-            className="px-4 py-2 w-full max-w-xs rounded-full shadow-sm focus:outline-none"
+            className="px-4  py-2 w-full max-w-xs rounded shadow-sm focus:outline-none"
           />
-       <Link href="/" className="ml-4 bg-black text-white px-6 py-2 rounded-full">
-  SUBSCRIBE
+       <Link href="/" >
+       <Button variant={"secondary"} size={"lg"} className="border-2 mt-5"> SUBSCRIBE</Button>
+ 
 </Link>
         </div>
       </div>
