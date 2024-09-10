@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
 
     return (
         <>
-            <div className="bg-background py-4 border-t">
+            <div className="bg-background py-4">
                 <div className="w-full flex md:flex-row flex-col justify-around items-start">
                     <div className="p-5">
                         <ul>
