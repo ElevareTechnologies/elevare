@@ -19,7 +19,7 @@ const navLinks: NavLink[] = [
 ];
 
 const ActiveIndicator = () => (
-  <span className="absolute -left-3 top-1 -translate-y-1/2 w-2 h-2 bg-[#08D3BB] rounded-full" />
+  <span className="absolute -left-3 top-1 -translate-y-1/2 w-2 h-2 bg-teal-400 rounded-full" />
 );
 
 const Navbar = () => {

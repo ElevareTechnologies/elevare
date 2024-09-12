@@ -4,12 +4,17 @@ import web from "../../public/web.svg";
 import seo from "../../public/seo.svg";
 import vr from "../../public/vr.svg";
 import mobile from "../../public/mobile.svg";
+import recents from "../../public/recents.png";
+import mockup from "../../public/mockup.png";
+import focus from "../../public/focus.png";
 import Image from "next/image";
+import FeatureSection from "@/components/feature";
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col-reverse p-8 lg:p-16 lg:flex-row md:flex-row items-center justify-around bg-primary/10 h-svh">
+      {/* Hero section */}
+      <div className="flex flex-col-reverse p-8 lg:p-16 lg:flex-row md:flex-row items-center justify-around bg-primary/10">
         {/* Hero text */}
         <div className="max-w-2xl mb-8 lg:mb-0">
           <h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-6">
@@ -80,7 +85,9 @@ export default function Home() {
             <Image src={web} alt="web-applications" width={48} height={48} />
           </div>
           <div>
-            <h3 className="font-semibold text-sm lg:text-base">Web Application</h3>
+            <h3 className="font-semibold text-sm lg:text-base">
+              Web Application
+            </h3>
             <h4 className="text-xs lg:text-sm text-muted-foreground">
               Lorem Ipsum is simply
             </h4>
@@ -104,7 +111,9 @@ export default function Home() {
             <Image src={vr} alt="vr-services" width={48} height={48} />
           </div>
           <div>
-            <h3 className="font-semibold text-sm lg:text-base">AR/VR Solutions</h3>
+            <h3 className="font-semibold text-sm lg:text-base">
+              AR/VR Solutions
+            </h3>
             <h4 className="text-xs lg:text-sm text-muted-foreground">
               Lorem Ipsum is simply
             </h4>
@@ -121,13 +130,64 @@ export default function Home() {
             />
           </div>
           <div>
-            <h3 className="font-semibold text-sm lg:text-base">Mobile Applications</h3>
+            <h3 className="font-semibold text-sm lg:text-base">
+              Mobile Applications
+            </h3>
             <h4 className="text-xs lg:text-sm text-muted-foreground">
               Lorem Ipsum is simply
             </h4>
           </div>
         </div>
       </div>
+
+      {/* Text section */}
+      <section className="flex flex-col items-center justify-center text-center py-12">
+        <h1 className=" text-base md:text-2xl font-semibold lg:text-3xl">
+          Lorem Ipsum is simply dummy text of the printing.
+        </h1>
+        <p className="mt-4 text-muted-foreground text-xs md:text-sm lg:text-lg">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <p className="mt-1 text-muted-foreground text-xs md:text-sm lg:text-lg">
+          Lorem Ipsum has been the industry's
+        </p>
+      </section>
+
+      {/* text and image sections */}
+      <FeatureSection
+        iconBgColor="bg-teal-400"
+        topTitle="Lorem Ipsum is simply dummy text"
+        topSubtitle="Lorem ipsum is simply dummy text"
+        mainTitle="is simply dummy text of the printing."
+        highlightedText="Lorem Ipsum"
+        description="KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & iOS."
+        imageSrc={recents}
+        imageAlt="Mobile App Showcase"
+      />
+      {/* reversed */}
+      <FeatureSection
+        iconBgColor="bg-primary"
+        topTitle="Lorem Ipsum is simply dummy text"
+        topSubtitle="Lorem ipsum is simply dummy text"
+        mainTitle="is simply dummy text of the printing."
+        highlightedText="Lorem Ipsum"
+        description="KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & iOS."
+        imageSrc={mockup}
+        imageAlt="Mobile App Showcase"
+        reversed={true}
+      />
+
+      <FeatureSection
+        iconBgColor="bg-purple-600"
+        topTitle="Lorem Ipsum is simply dummy text"
+        topSubtitle="Lorem ipsum is simply dummy text"
+        mainTitle="is simply dummy text of the printing."
+        highlightedText="Lorem Ipsum"
+        description="KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & iOS."
+        imageSrc={focus}
+        imageAlt="Mobile App Showcase"
+      />
     </>
   );
 }
