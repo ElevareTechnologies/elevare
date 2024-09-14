@@ -37,7 +37,7 @@ export default function Home() {
               </h1>
               <p className="text-muted-foreground text-lg  p-5 px-0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's
+                industry. Lorem Ipsum has been the industry
               </p>
             </div>
           </div>

@@ -151,7 +151,7 @@ export default function Home() {
           industry.
         </p>
         <p className="mt-1 text-muted-foreground text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum has been the industry's
+          Lorem Ipsum has been the industry
         </p>
       </section>
 
