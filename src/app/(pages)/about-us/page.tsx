@@ -60,7 +60,7 @@ export default function Home() {
         <div className="lg:container p-4">
           <div className="lg:w-10/12 lg:my-16 lg:mx-10">
             <div className="lg:w-4/6">
-              <h2 className="text-primary tracking-wide lg:text-5xl text-2xl font-extrabold mb-4 py-6">
+              <h2 className="text-primary tracking-wide lg:text-4xl text-2xl font-semibold mb-4 py-6">
                 Lorem Ipsum is simply dummy text of the printing.{" "}
               </h2>
             </div>
