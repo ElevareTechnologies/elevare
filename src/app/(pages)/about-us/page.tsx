@@ -2,10 +2,10 @@
 import Image from "next/image";
 import "./about-page.css";
 
-import IMG1 from "../about-us/images/img1.png";
-import IMG2 from "../about-us/images/img2.png";
-import IMG3 from "../about-us/images/img3.png";
-import IMG4 from "../about-us/images/img4.png";
+import IMG1 from "../../../../public/img1.png";
+import IMG2 from "../../../../public/img2.png";
+import IMG3 from "../../../../public/img3.png";
+import IMG4 from "../../../../public/img4.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import SubscribeForm from "@/components/SubscribeForm";
