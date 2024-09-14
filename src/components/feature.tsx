@@ -54,40 +54,14 @@ export default function FeatureSection({
         </div>
 
         {/* Image Column */}
-        <div className=" relative w-full md:w-1/2">
-        <svg
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full"
-            viewBox="0 0 496 504"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <ellipse
-              cx="248"
-              cy="252"
-              rx="248"
-              ry="252"
-              fill="url(#paint0_radial_1_6)"
-            />
-            <defs>
-              <radialGradient
-                id="paint0_radial_1_6"
-                cx="0"
-                cy="0"
-                r="1"
-                gradientUnits="userSpaceOnUse"
-                gradientTransform="translate(248 252) rotate(90) scale(252 248)"
-              >
-                <stop stopColor="#FDFFEA" />
-                <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
-              </radialGradient>
-            </defs>
-          </svg>
+        <div className="w-full md:w-1/2">
+        
           <Image
             src={imageSrc}
             alt={imageAlt}
             width={500}
             height={500}
-            className="w-auto h-full relative z-10"
+            className="w-auto h-full"
           />
         </div>
       </div>
