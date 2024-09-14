@@ -72,7 +72,6 @@ export default function Home() {
           <Image
             src={hero}
             alt="Hero image"
-            layout="responsive"
             width={500}
             height={500}
             className="rounded-lg relative z-10"
