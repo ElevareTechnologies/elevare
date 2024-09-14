@@ -2,14 +2,14 @@
 import Image from "next/image";
 import "./about-page.css";
 
-import IMG1 from "./IMAGES/IMG1.png";
-import IMG2 from "./IMAGES/IMG2.png";
-import IMG3 from "./IMAGES/IMG3.png";
-import IMG4 from "./IMAGES/IMG4.png";
-import web from "./IMAGES/Group.png";
-import seo from "./IMAGES/startup 1.png";
-import ar from "./IMAGES/cloud-computing 1.png";
-import mobile from "./IMAGES/coding 1.png";
+import IMG1 from "./images/IMG1.png";
+import IMG2 from "./images/IMG2.png";
+import IMG3 from "./images/IMG3.png";
+import IMG4 from "./images/IMG4.png";
+import web from "./images/Group.png";
+import seo from "./images/startup.png";
+import ar from "./images/cloud-computing 1.png";
+import mobile from "./images/coding.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import SubscribeForm from "@/components/SubscribeForm";
@@ -38,7 +38,7 @@ export default function Home() {
               <h1 className="text-2xl lg:text-4xl font-semibold mb-4  p-5 px-0">
                 Lorem Ipsum is simply dummy text of the printing.
               </h1>
-              <p className="text-gray-600 text-lg  p-5 px-0">
+              <p className="text-muted-foreground text-lg  p-5 px-0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's
               </p>
@@ -64,7 +64,7 @@ export default function Home() {
                 Lorem Ipsum is simply dummy text of the printing.{" "}
               </h2>
             </div>
-            <p className="text-gray-600 text-xl">
+            <p className="text-muted-foreground text-xl">
               KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
               weblications and website builders measuring dozens of completed
               projects. We build and develop mobile weblications for several top
@@ -81,7 +81,7 @@ export default function Home() {
                 <h3 className="text-2xl lg:text-3xl font-semibold mb-4">
                   Lorem Ipsum is simply dummy text of the printing.
                 </h3>
-                <p className="text-sm text-gray-600 py-4">
+                <p className="text-sm text-muted-foreground py-4">
                   KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
                   web applications and website builders measuring dozens of
                   completed projects.
