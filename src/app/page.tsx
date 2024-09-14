@@ -10,6 +10,7 @@ import focus from "../../public/focus.png";
 import Image from "next/image";
 import FeatureSection from "@/components/feature";
 import SubscribeForm from "@/components/SubscribeForm";
+import CompanyLogos from "@/components/CompanySection";
 
 export default function Home() {
   return (
@@ -189,7 +190,7 @@ export default function Home() {
         imageSrc={focus}
         imageAlt="Mobile App Showcase"
       />
-
+      <CompanyLogos />
       <SubscribeForm />
     </>
   );
