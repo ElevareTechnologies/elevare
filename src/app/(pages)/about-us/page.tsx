@@ -2,10 +2,10 @@
 import Image from "next/image";
 import "./about-page.css";
 
-import IMG1 from "./images/IMG1.png";
-import IMG2 from "./images/IMG2.png";
-import IMG3 from "./images/IMG3.png";
-import IMG4 from "./images/IMG4.png";
+import IMG1 from "./images/img1.png";
+import IMG2 from "./images/img2.png";
+import IMG3 from "./images/img3.png";
+import IMG4 from "./images/img4.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import SubscribeForm from "@/components/SubscribeForm";
@@ -37,7 +37,7 @@ export default function Home() {
               </h1>
               <p className="text-muted-foreground text-lg  p-5 px-0">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's
+                industry. Lorem Ipsum has been the industry
               </p>
             </div>
           </div>

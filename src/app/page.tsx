@@ -72,7 +72,6 @@ export default function Home() {
           <Image
             src={hero}
             alt="Hero image"
-            layout="responsive"
             width={500}
             height={500}
             className="rounded-lg relative z-10"
@@ -152,7 +151,7 @@ export default function Home() {
           industry.
         </p>
         <p className="mt-1 text-muted-foreground text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum has been the industry's
+          Lorem Ipsum has been the industry
         </p>
       </section>
 

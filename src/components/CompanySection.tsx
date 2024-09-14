@@ -1,4 +1,8 @@
 import Image from 'next/image'
+import beneoshop from "../../public/beneoshop.png"
+import caspio from "../../public/caspio.png"
+import hypergrid from "../../public/HyperGrid.png"
+import leotrippi from "../../public/leotrippi.png"
 
 export default function CompanyLogos() {
   return (
@@ -7,34 +11,34 @@ export default function CompanyLogos() {
       <div className="grid grid-cols-2 gap-6 md:flex md:items-center md:justify-center md:space-x-10">
         <div className="relative w-36 h-20 lg:w-48 lg:h-40">
           <Image
-            src="/beneoshop.png" // Replace with the correct image path
+            src={beneoshop}
             alt="Beneoshop Logo"
-            layout="fill"
-            objectFit="contain"
+            className="object-contain"
+            fill
           />
         </div>
         <div className="relative w-36 h-20 lg:w-48 lg:h-40">
           <Image
-            src="/caspio.png" // Replace with the correct image path
+            src={caspio}
             alt="Caspio Logo"
-            layout="fill"
-            objectFit="contain"
+            className="object-contain"
+            fill
           />
         </div>
         <div className="relative w-36 h-20 lg:w-48 lg:h-40">
           <Image
-            src="/hypergrid.png" // Replace with the correct image path
+            src={hypergrid}
             alt="Hypergrid Logo"
-            layout="fill"
-            objectFit="contain"
+            className="object-contain"
+            fill
           />
         </div>
         <div className="relative w-36 h-20 lg:w-48 lg:h-40">
           <Image
-            src="/leotrippi.png" // Replace with the correct image path
+            src={leotrippi}
             alt="Leo Trippi Logo"
-            layout="fill"
-            objectFit="contain"
+            className="object-contain"
+            fill
           />
         </div>
       </div>
