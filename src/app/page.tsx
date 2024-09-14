@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import hero from "../../public/Hero.png";
-import web from "../../public/web.svg";
-import seo from "../../public/seo.svg";
-import vr from "../../public/vr.svg";
-import mobile from "../../public/mobile.svg";
+import web from "../../public/svg/web.svg";
+import seo from "../../public/svg/seo.svg";
+import vr from "../../public/svg/vr.svg";
+import mobile from "../../public/svg/mobile.svg";
 import recents from "../../public/recents.png";
 import mockup from "../../public/mockup.png";
 import focus from "../../public/focus.png";

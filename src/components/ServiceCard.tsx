@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from "next/image";
-import web from "./Group.png";
-import seo from "./startup.png";
-import ar from "./cloud-computing.png";
-import mobile from "./coding.png";
+import web from "../../public/Group.png";
+import seo from "../../public/startup.png";
+import ar from "../../public/cloud-computing.png";
+import mobile from "../../public/coding.png";
 
 export const ServiceCard = () => {
   return (

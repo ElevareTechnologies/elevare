@@ -9,7 +9,7 @@ import IMG4 from "./images/IMG4.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import SubscribeForm from "@/components/SubscribeForm";
-import { ServiceCard } from "../../../../public/ServiceCard";
+import { ServiceCard } from "@/components/ServiceCard";
 export default function Home() {
   return (
     <>
