@@ -8,7 +8,7 @@ export default function Contact() {
       <>
       <div className="flex justify-evenly items-center lg:flex-row   flex-col">
       <div className="">
-        <h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-6 justify-center lg:justify-end flex">Let's colobrate</h1>
+        <h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-6 justify-center lg:justify-end flex">Lets colobrate</h1>
         <p className=" font-normal text-sm mb-8 md:text-base lg:text-lg text-muted-foreground">Lorem Ipsum is simply dummy text of the printing .</p>
       </div>
       <div className="">
