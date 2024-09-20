@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./about-page.css";
 
 import IMG1 from "../../../../public/img1.png";
-import IMG2 from "../../../../public/hands-on-table.png";
+import IMG2 from "../../../../public/handsontable.png";
 import IMG3 from "../../../../public/img3.png";
 import IMG4 from "../../../../public/img4.png";
 import Link from "next/link";
