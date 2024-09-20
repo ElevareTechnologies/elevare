@@ -4,6 +4,8 @@ import product from "../../../../public/Product.png";
 import "./service-page.css";
 import { ServiceCard } from "@/components/ServiceCard";
 import FeatureSection from "@/components/feature";
+import Counter from "@/components/Counter";
+import SubscribeForm from "@/components/SubscribeForm";
 
 export default function Service() {
   return (
@@ -28,6 +30,10 @@ export default function Service() {
         buttonVisibility={true}
         buttonText="Contact us"
       />
+      <div className="pt-4">
+      <Counter />
+      </div>
+      <SubscribeForm />
       </div>
     </>
   );
