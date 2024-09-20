@@ -1,20 +1,23 @@
 import Image from "next/image";
 import { StaticImageData } from "next/image";
+import { Button } from "./ui/button";
 
 interface FeatureSectionProps {
   iconBgColor?: string;
-  topTitle: string;
-  topSubtitle: string;
+  topTitle?: string;
+  topSubtitle?: string;
   mainTitle: string;
   highlightedText: string;
   description: string;
   imageSrc: string | StaticImageData;
   imageAlt: string;
   reversed?: boolean;
+  buttonVisibility?: boolean;
+  buttonText?: string;
 }
 
 export default function FeatureSection({
-  iconBgColor = "bg-teal-400",
+  iconBgColor = "",
   topTitle,
   topSubtitle,
   mainTitle,
@@ -23,6 +26,8 @@ export default function FeatureSection({
   imageSrc,
   imageAlt,
   reversed = false,
+  buttonVisibility = false,
+  buttonText,
 }: FeatureSectionProps) {
   const contentOrder = reversed ? "md:order-last" : "";
 
@@ -51,6 +56,10 @@ export default function FeatureSection({
 
           {/* Description */}
           <p className="text-muted-foreground mb-8 text-justify">{description}</p>
+
+          {/* Button */}
+          { buttonVisibility && (<Button size="lg" variant="outline">{buttonText}</Button>)}
+         
         </div>
 
         {/* Image Column */}
