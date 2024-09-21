@@ -37,10 +37,10 @@ const Counter: React.FC<CounterProps> = () => {
   }, []);
 
   return (
-    <section className="py-14 bg-primary" ref={counterRef}>
+    <section className="py-14 bg-primary dark:bg-transparent" ref={counterRef}>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="text-center text-background p-6">
+          <div className="text-center text-white p-6">
             <CountUp
               start={isCounterVisible ? 0 : undefined}
               end={126}
@@ -55,7 +55,7 @@ const Counter: React.FC<CounterProps> = () => {
             </CountUp>
             <span className="block text-lg ">Customers</span>
           </div>
-          <div className="text-center text-background p-6">
+          <div className="text-center text-white p-6">
             <CountUp
               start={isCounterVisible ? 0 : undefined}
               end={63}
@@ -70,7 +70,7 @@ const Counter: React.FC<CounterProps> = () => {
             </CountUp>
             <span className="block text-lg">Completed Projects</span>
           </div>
-          <div className="text-center text-background p-6">
+          <div className="text-center text-white p-6">
             <CountUp
               start={isCounterVisible ? 0 : undefined}
               end={18}
@@ -85,7 +85,7 @@ const Counter: React.FC<CounterProps> = () => {
             </CountUp>
             <span className="block text-lg">Partners</span>
           </div>
-          <div className="text-center text-background p-6">
+          <div className="text-center text-white p-6">
             <CountUp
               start={isCounterVisible ? 0 : undefined}
               end={27}

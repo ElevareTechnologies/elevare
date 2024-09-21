@@ -10,7 +10,7 @@ import SubscribeForm from "@/components/SubscribeForm";
 export default function Service() {
   return (
     <>
-      <div className="flex flex-col justify-start items-center gap-4 bg-primary/10 p-8 h-[500px]">
+      <div className="flex flex-col justify-start items-center gap-4 bg-primary/10 dark:bg-transparent p-8 h-[500px]">
         <Image src={service} alt="service-icon" width={135} height={135} />
         <h1 className="text-3xl font-semibold">
           Our <span className="text-primary">Services</span>
