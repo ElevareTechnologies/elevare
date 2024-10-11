@@ -17,7 +17,7 @@ export default function Service() {
         </h1>
         <p className="text-muted-foreground text-center">
           Lorem Ipsum is simply dummy text of the <br /> printing and
-          typesetting industry. Lorem Ipsum <br /> has been the industry's
+          typesetting industry. Lorem Ipsum <br /> has been the industrys
         </p>
       </div>
       <div className="">
