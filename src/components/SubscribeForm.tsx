@@ -5,7 +5,7 @@ import { Input } from './ui/input';
 
 const SubscribeForm = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-44 bg-primary/10">
+    <div className="flex flex-col items-center justify-center py-44 bg-primary/10 dark:bg-transparent">
       <h2 className="text-2xl font-semibold mb-10 text-center">
         Lorem Ipsum is simply dummy <br /> text of the printing.
       </h2>

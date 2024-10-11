@@ -50,7 +50,7 @@ export default function Contact() {
 
       {/*  */}
 
-      <div className=" mx-auto bg-blue-50 p-8 flex justify-center flex-col items-center py-9 ">
+      <div className=" mx-auto bg-blue-50 dark:bg-transparent p-8 flex justify-center flex-col items-center py-9 ">
       <h2 className="text-2xl font-bold text-center mb-1">Say hello</h2>
       <p className="text-center text-gray-600 mb-6">Lorem ipsum is simply dummy text of the printing</p>
       
